@@ -60,7 +60,7 @@ For your convenience, the generation process is encapsulated in `run.sh`, which 
 Evaluation on Countdown, GSM8K, MATH500 and SVAMP datasets.
 
 ```bash
-bash eval/start_run.sh
+bash start_run.sh
 ```
 
 Run `eval/get_acc.py` after the evaluation is done.
@@ -71,8 +71,8 @@ Run `eval/get_acc.py` after the evaluation is done.
 
 Training using continuous trajectory supervision.
 
-```
-bash train/train_CTS.sh
+```bash
+bash train_CTS.sh
 ```
 
 
